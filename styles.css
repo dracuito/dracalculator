@@ -1,67 +1,67 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
-}
-
-.calculator {
-  background-color: #333;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-#display {
-  width: 100%;
-  height: 50px;
-  background-color: #222;
-  color: #fff;
-  border: none;
-  text-align: right;
-  padding: 10px;
-  font-size: 24px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-}
-
-button {
-  background-color: #444;
-  color: #fff;
-  border: none;
-  padding: 20px;
-  font-size: 18px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #555;
-}
-
-button.clear {
-  grid-column: span 2; /* Clear button spans 2 columns */
-  background-color: #ff4444;
-}
-
-button.clear:hover {
-  background-color: #ff6666;
-}
-
-button.equal {
-  grid-column: span 2; /* Equal button spans 2 columns */
-  background-color: #44ff44; /* Green color for equal button */
-}
-
-button.equal:hover {
-  background-color: #66ff66;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #display {
+    width: 100%;
+    height: 50px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  button.clear {
+    grid-column: span 2; /* Clear button spans 2 columns */
+    background-color: #ff4444;
+  }
+  
+  button.clear:hover {
+    background-color: #ff6666;
+  }
+  
+  button.equal {
+    grid-column: span 2; /* Equal button spans 2 columns */
+    background-color: #44ff44; /* Green color for equal button */
+  }
+  
+  button.equal:hover {
+    background-color: #66ff66;
+  }
